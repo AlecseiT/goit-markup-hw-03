@@ -207,8 +207,25 @@ body {
 }
 /* ------------------Our team studio--------------------------- */
 .our-team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: var(--secondary-other-color);
 }
+.our-team-list {
+  display: flex;
+  margin-top: 50px;
+}
+.our-team-item:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team-item {
+  padding-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
@@ -218,6 +235,9 @@ body {
   color: var(--main-first-color);
 }
 .teammate-title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
