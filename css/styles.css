@@ -185,8 +185,20 @@ body {
   color: var(--main-second-color);
 }
 /* ------------------About our work studio--------------------- */
+
+.our-work-section {
+  padding-top: 94px;
+}
+.our-work-list {
+  display: flex;
+}
+.our-work-item:not(:last-child) {
+  margin-right: 30px;
+}
 .our-work-title {
-  font-weight: 700d;
+  margin-bottom: 30px;
+
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
