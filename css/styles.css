@@ -196,7 +196,7 @@ body {
   margin-right: 30px;
 }
 .our-work-title {
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   font-weight: 700;
   font-size: 36px;
@@ -287,15 +287,28 @@ body {
 
 /* ----------------------Footer---------------------------- */
 .footer {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
+.logo-link {
+  display: block;
+  margin-bottom: 20px;
+}
 .address {
+  margin-bottom: 9px;
+
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+.item-contacts:not(:last-child) {
+  margin-bottom: 9px;
 }
 .link-contacts {
   font-size: 14px;
