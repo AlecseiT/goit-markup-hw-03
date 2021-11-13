@@ -155,7 +155,22 @@ body {
   background-color: #188ce8;
 }
 /* -----------------Our qualities studio------------------------------ */
+.our-qualities-section {
+  padding-top: 94px;
+}
+.qualities-item {
+  width: 270px;
+}
+.qualities-item:not(:last-child) {
+  margin-right: 30px;
+}
+.qualities-list {
+  display: flex;
+  justify-content: space-between;
+}
 .qualities-title {
+  margin-bottom: 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
