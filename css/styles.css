@@ -111,11 +111,21 @@ body {
   margin-right: 50px;
 }
 /* -------------------Hero section studio-------------------- */
+
 .hero-section {
+  max-width: 1600px;
   background-color: #2f303a;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -125,16 +135,17 @@ body {
   color: var(--secondary-color);
 }
 .hero-btn {
+  margin-top: 30px;
+  padding: 10px 32px;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--secondary-color);
   background-color: var(--navigation-btn-color);
+  border-radius: 4px;
 }
 .btn-pointer {
   cursor: pointer;
