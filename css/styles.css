@@ -67,9 +67,6 @@ body {
 .logo-header {
   color: #000000;
 }
-.logo-footer {
-  color: var(--secondary-color);
-}
 
 /* --------Navigation-------- */
 .header-link {
@@ -192,6 +189,7 @@ body {
 
 .our-work-section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .our-work-list {
   display: flex;
@@ -211,8 +209,6 @@ body {
 }
 /* ------------------Our team studio--------------------------- */
 .our-team-section {
-  max-width: 1600px;
-  margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--secondary-other-color);
@@ -225,6 +221,7 @@ body {
   margin-right: 30px;
 }
 .our-team-item {
+  width: 270px;
   padding-bottom: 30px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -267,7 +264,7 @@ body {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -298,6 +295,7 @@ body {
   flex-wrap: wrap;
 }
 .portfolio-item {
+  width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -308,14 +306,12 @@ body {
   margin-bottom: 0px;
 }
 .portfolio-card {
+  padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
 
 .portfolio-title {
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-top: 20px;
   margin-bottom: 4px;
 
   font-weight: 700;
@@ -325,10 +321,6 @@ body {
   color: var(--main-first-color);
 }
 .portfolio-text {
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-bottom: 20px;
-
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -337,16 +329,27 @@ body {
 
 /* ----------------------Footer---------------------------- */
 .footer {
-  max-width: 1600px;
-  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
 }
-.logo-link {
+.logo-link-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--navigation-btn-color);
+}
+
+.logo-link-footer {
   display: block;
   margin-bottom: 20px;
 }
+.logo-footer {
+  color: var(--secondary-color);
+}
+
 .address {
   margin-bottom: 9px;
 
